@@ -11,7 +11,6 @@ from io import BytesIO
 import time
 import datetime
 import io
-from keep_alive import keep_alive
 from PyDictionary import PyDictionary
 import news_python
 import bitlyshortener
