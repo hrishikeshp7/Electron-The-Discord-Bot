@@ -18,7 +18,7 @@ import os
 
 
 
-client = commands.Bot(command_prefix="h")
+client = commands.Bot(command_prefix="h", intents = discord.Intents.all())
 
 client.remove_command("help")
 
